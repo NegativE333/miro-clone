@@ -76,7 +76,7 @@ export type Point = {
 export type XYWH = {
   x: number;
   y: number;
-  widht: number;
+  width: number;
   height: number;
 };
 
@@ -126,3 +126,5 @@ export enum CanvasMode {
   Resizing,
   Pencil,
 }
+
+export type Layer = RectangleLayer | EllipseLayer | PathLayer | Textlayer | NoteLayer
